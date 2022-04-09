@@ -1,3 +1,12 @@
+launchpad-getkeys (0.4.0) jammy; urgency=emergency
+ 
+  * Fix to enable work on ubuntu 18.04 without proxy
+  * Fix for not write to /etc/apt/trusted.gpg as gpg now writes wrong format of it
+  * separate opts params using bash array
+  * trying to export key to right format
+ 
+ -- Goran Vidovic (gogo) <trebelnik2@gmail.com>  Sat, 9 Apr 2022 16:05:37 +0200
+
 launchpad-getkeys (0.3.3-1~webupd8~2) trusty; urgency=medium
  
   * switch to apt-key

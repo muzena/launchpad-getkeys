@@ -1,4 +1,4 @@
-launchpad-getkeys (0.4.0) jammy; urgency=emergency
+launchpad-getkeys (0.4.0~jammy) jammy; urgency=emergency
  
   * Fix to enable work on ubuntu 18.04 without proxy
   * Fix for not write to /etc/apt/trusted.gpg as gpg now writes wrong format of it

@@ -1,0 +1,19 @@
+Source: launchpad-getkeys
+Section: admin
+Priority: extra
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.5
+
+Package: launchpad-getkeys
+Architecture: all
+Depends: ${misc:Depends}
+Description: Import missing GPG keys automatically
+ .
+ This package provides a script capable of automatically 
+ downloading the missing GPG keys for all your PPAs, even if you are
+ behind a firewall that blocks port 11371.
+ .
+ The tool does not fix broken keys!
+ .
+ To use it, run: sudo launchpad-getkeys
